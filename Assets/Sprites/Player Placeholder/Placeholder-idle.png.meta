@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9c067aea99d957f4390f742b545ff718
+guid: 9a90baf65428ead449601764950778ae
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,49 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Placeholder-idle_0
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 204
+        width: 72
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18a1ad7bf800e843a0c1f0c0b405847
+      internalID: 406660238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder-idle_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 12
+        width: 60
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05539576af974f44cbbdde57f6387da9
+      internalID: -190905943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +148,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Placeholder-idle_0: 406660238
+      Placeholder-idle_1: -190905943
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
