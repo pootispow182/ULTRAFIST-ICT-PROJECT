@@ -7,13 +7,13 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 5f; // Speed of the player
     public float maxYPosition = 0f; // Maximum Y position the player can reach
     public float minYPosition = -2f; // Minimum Y position (ground level)
-    public float maxXPosition = 10f; // Maximum X position the player can reach
-    public float minXPosition = -10f; // Minimum X position (leftmost boundary)
 
     private Rigidbody2D rb;
     private Vector2 movement;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
+
+    private bool isPunching = false; // Check if the player is currently punching
 
     void Start()
     {
@@ -39,21 +39,51 @@ public class PlayerMovement : MonoBehaviour
         {
             spriteRenderer.flipX = moveX < 0; // Flip the sprite when moving left
         }
+
+        // Check for punch input (e.g., spacebar or mouse click)
+        if (Input.GetKeyDown(KeyCode.Space) && !isPunching)
+        {
+            Punch();
+        }
     }
 
     void FixedUpdate()
     {
+        // Stop movement while punching
+        if (isPunching)
+        {
+            rb.velocity = Vector2.zero;
+            return;
+        }
+
         // Calculate the new velocity
         Vector2 newVelocity = movement * speed;
 
         // Get the current position
         Vector2 currentPosition = rb.position;
 
-        // Clamp the X and Y positions
-        float clampedX = Mathf.Clamp(currentPosition.x + newVelocity.x * Time.fixedDeltaTime, minXPosition, maxXPosition);
+        // Clamp the Y position
         float clampedY = Mathf.Clamp(currentPosition.y + newVelocity.y * Time.fixedDeltaTime, minYPosition, maxYPosition);
 
         // Apply the clamped velocity to the Rigidbody
-        rb.velocity = new Vector2((clampedX - currentPosition.x) / Time.fixedDeltaTime, (clampedY - currentPosition.y) / Time.fixedDeltaTime);
+        rb.velocity = new Vector2(newVelocity.x, (clampedY - currentPosition.y) / Time.fixedDeltaTime);
+    }
+
+    void Punch()
+    {
+        // Trigger the punch animation
+        animator.SetTrigger("Punch");
+        isPunching = true;
+
+        // Optional: Delay ending the punch (until the animation finishes)
+        StartCoroutine(EndPunch());
+    }
+
+    IEnumerator EndPunch()
+    {
+        // Wait for the animation to finish (adjust the time to match your animation)
+        yield return new WaitForSeconds(0.5f);
+
+        isPunching = false;
     }
 }

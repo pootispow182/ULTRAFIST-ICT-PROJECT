@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0def9e53587204a4292b3df6ed8937da
+guid: f1a7349cb1d5d9d4f8da7707932b59cf
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,190 +97,211 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Placeholder-player_0
-      rect:
-        serializedVersion: 2
-        x: 92
-        y: 528
-        width: 80
-        height: 188
-      alignment: 9
-      pivot: {x: 0.4284441, y: 0.49999967}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 82c95972788cc104f91e22dcf36de6a6
-      internalID: 1145313939
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Placeholder-player_1
-      rect:
-        serializedVersion: 2
-        x: 348
-        y: 528
-        width: 96
-        height: 196
-      alignment: 9
-      pivot: {x: 0.35777983, y: 0.49468964}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 735df45298df95d428ca4f42421880b2
-      internalID: -1977859492
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Placeholder-player_2
-      rect:
-        serializedVersion: 2
-        x: 616
-        y: 528
-        width: 88
-        height: 192
-      alignment: 9
-      pivot: {x: 0.400813, y: 0.49999967}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f14e51b7b816eb498e40e4dea4244ca
-      internalID: 1594642494
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Placeholder-player_3
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 272
-        width: 92
-        height: 196
-      alignment: 9
-      pivot: {x: 0.38293555, y: 0.49520686}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 044dce71b216bae4b817e75254866539
-      internalID: 1273601361
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Placeholder-player_4
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 272
-        width: 64
-        height: 196
-      alignment: 9
-      pivot: {x: 0.4653201, y: 0.49999985}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d02ea79728c40304e96e7d11f2edfb5f
-      internalID: 2120551762
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Placeholder-player_5
-      rect:
-        serializedVersion: 2
-        x: 604
-        y: 272
-        width: 92
-        height: 196
-      alignment: 9
-      pivot: {x: 0.3208459, y: 0.50367504}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 721e453b9ef480d47bf7ef52fc479ff7
-      internalID: 1217793398
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Placeholder-player_6
+      name: Placeholder-Blood_0
       rect:
         serializedVersion: 2
         x: 96
-        y: 16
-        width: 112
-        height: 196
-      alignment: 9
-      pivot: {x: 0.21416166, y: 0.50689733}
+        y: 868
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca4dae9f05196eb4bb97756ccbe5e1a6
-      internalID: -1973482073
+      spriteID: 6f58619ff158c4f4ea9c71b699ffa7fe
+      internalID: -878270978
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Placeholder-player_7
+      name: Placeholder-Blood_1
       rect:
         serializedVersion: 2
-        x: 352
-        y: 16
-        width: 116
-        height: 192
-      alignment: 9
-      pivot: {x: 0.20131868, y: 0.5044208}
+        x: 348
+        y: 868
+        width: 72
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51658789b42bb0144b00a461027b0de3
-      internalID: -1053073330
+      spriteID: f3af57c57987f6149ab6bff7fb9d27e4
+      internalID: 1324217190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Placeholder-player_8
+      name: Placeholder-Blood_2
       rect:
         serializedVersion: 2
         x: 604
-        y: 16
-        width: 96
-        height: 196
-      alignment: 9
-      pivot: {x: 0.28548685, y: 0.5048352}
+        y: 864
+        width: 72
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d912df7e578e0a048991291e47183cd4
-      internalID: -1996698560
+      spriteID: d89eaa964077eaf46bbc6ec438d6e857
+      internalID: -934059024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder-Blood_3
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 596
+        width: 92
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d265f1630df5c1543a1e45fbf9dfd6ba
+      internalID: -1344673615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder-Blood_4
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 584
+        width: 92
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5c5286eb2823c4e8d007c8de29707e
+      internalID: 692806294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder-Blood_5
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 568
+        width: 116
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12244a2d1d9860c4e95a0bb904c0a7f5
+      internalID: 755867242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder-Blood_6
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 308
+        width: 140
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266efd4607adc19488bc021764d66159
+      internalID: -847413948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder-Blood_7
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 312
+        width: 140
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41083ead80eba8643bff3ec8657f69ce
+      internalID: -1704011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder-Blood_8
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 304
+        width: 156
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941dd30d35974fc4f9d9f3e11d40acfc
+      internalID: -1362447700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder-Blood_9
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 48
+        width: 164
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629238c82f438144883dc0c24657160f
+      internalID: -1841679376
       vertices: []
       indices: 
       edges: []
@@ -296,15 +317,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Placeholder-player_0: 1145313939
-      Placeholder-player_1: -1977859492
-      Placeholder-player_2: 1594642494
-      Placeholder-player_3: 1273601361
-      Placeholder-player_4: 2120551762
-      Placeholder-player_5: 1217793398
-      Placeholder-player_6: -1973482073
-      Placeholder-player_7: -1053073330
-      Placeholder-player_8: -1996698560
+      Placeholder-Blood_0: -878270978
+      Placeholder-Blood_1: 1324217190
+      Placeholder-Blood_2: -934059024
+      Placeholder-Blood_3: -1344673615
+      Placeholder-Blood_4: 692806294
+      Placeholder-Blood_5: 755867242
+      Placeholder-Blood_6: -847413948
+      Placeholder-Blood_7: -1704011
+      Placeholder-Blood_8: -1362447700
+      Placeholder-Blood_9: -1841679376
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
